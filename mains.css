@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: hsl(270, 20%, 96%);
+    font-family: 'Rubik', sans-serif;
+    Font-size: 16px;
+}
+#backdrop{
+    height: 600px;
+    width: 400px;
+    margin: 0rem 2rem;
+    /* background-color: hsl(293, 100%, 63%); */
+    background-image: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-bottom-right-radius:17rem ;
+    border-bottom-left-radius:0.4rem;
+
+}
+.container{
+    position: absolute;
+    border: 2px solid grey;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 2rem;
+    height: 700px;
+    width: 300px;
+    top: 8rem;
+    left: 20rem;
+}
+.nav-wrapper{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    background-image: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%)) ;
+}
+.nav-wrapper img{
+    height:50px;
+    width:50px;
+    margin:7px;
+    border-radius: 10rem;
+}
+.nav-wrapper .text-trans{
+    margin: 13px;
+    color: white;
+    width: 200%;
+    font-size: 20px;
+}
+.nav-wrapper .text-mini{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    top: 3.5rem;
+}
+.chat-box .basic-box{
+    background-color:  hsl(268, 16%, 82%);
+    color: hsl(276, 55%, 52%);
+    border: 2px solid  hsl(270, 20%, 96%);
+    padding: 4px;
+    margin: 0.7rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.chat-box .final-box{
+    background-color:  hsl(268, 16%, 82%);
+    color: hsl(276, 55%, 52%);
+    border: 2px solid  hsl(270, 20%, 96%);
+    padding: 4px;
+    margin: 0.7rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.chat-box__1 img{
+    height:50px;
+    width:50px;
+    margin:7px;
+    border-radius: 1rem;
+    float: right;
+}
+.chat-box__1 .right-box__1{
+    background-color: #fff;
+    color: hsl(271, 15%, 43%);
+    border: 2px solid  hsl(270, 20%, 96%);
+    float: right;
+    padding: 4px;
+    margin: 0.7rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.chat-box__1 .right-box__2{
+    background-color:  #fff;
+    color: hsl(271, 15%, 43%);
+    border: 2px solid  hsl(270, 20%, 96%);
+    float: right;
+    padding: 6px;
+    margin: 0rem 0.7rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.left-box .left-box__1{
+    background-color:  hsl(268, 16%, 82%);
+    color: hsl(276, 55%, 52%);
+    border: 2px solid  hsl(270, 20%, 96%);
+    width: 250px;
+    padding: 4px;
+    margin-top: 12rem;
+    margin-left: 0.7rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.left-box .left-box__2{
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    color: white;
+    border: 2px solid  hsl(270, 20%, 96%);
+    width: 200px;
+    padding: 0.7rem;
+    margin: 0.7rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.left-box .left-box__3{
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    color: white;
+    border: 2px solid  hsl(270, 20%, 96%);
+    width: 200px;
+    padding: 0.7rem;
+    margin: 0.7rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px;
+}
+.left-box button{
+    margin: 0rem 0.7rem;
+    padding: 1rem;
+    width: 270px;
+    border: 2px solid hsl(268, 16%, 82%);
+    border-radius: 2rem;
+    background: #fff;
+    color: #ccc;
+    text-align: left;
+}
+.body-page{
+    position: absolute;
+    left: 50rem;
+    top: 17rem;
+    line-height: 1.5;
+}
+.body-page .page-1{
+    margin: 0.7rem 0rem;
+    color:hsl(271, 36%, 24%) ;
+}
+.body-page .page-2{
+    margin: 0.7rem 0rem;
+    color:hsl(270, 7%, 64%) ;
+    width: 450px;
+}
